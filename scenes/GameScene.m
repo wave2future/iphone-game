@@ -19,7 +19,7 @@
 	bg = [Sprite spriteWithFile:@"home-sky.png"];
 	mg = [Sprite spriteWithFile:@"home-grass.png"];
 	mg2 = [Sprite spriteWithFile:@"home-grass-2.png"];
-	[bg setPosition:cpv(260, 160)];
+	[bg setPosition:cpv(260, 130)];
 	[mg setPosition:cpv(240, 40)];
 	[mg2 setPosition:cpv(260, 80)];
 	[tallGuyHome setPosition:cpv(260, 220)];
@@ -31,8 +31,8 @@
 	
 	// Move background
 	int duration = 20;
-	cpVect start = cpv(260, 160);
-	cpVect end = cpv(190, 160);
+	cpVect start = cpv(260, 130);
+	cpVect end = cpv(190, 100);
 	IntervalAction *to = [MoveTo actionWithDuration:duration position:end];
 	IntervalAction *from = [MoveTo actionWithDuration:duration position:start];
 	IntervalAction *sequence = [Sequence actionOne:to two:from];
