@@ -13,6 +13,9 @@
 - (id) init {
 	if (!(self = [super init])) return nil;
 	kitten = [Sprite spriteWithFile:@"kitten.png"];
+	Sprite * kittenShadow = [Sprite spriteWithFile:@"kitten-shadow.png"];
+	[kitten addChild:kittenShadow];
+	[kittenShadow setPosition:cpv(13, -3)];
 	tallGuy = [Sprite spriteWithFile:@"tall-guy.png"];
 	tallGuyHome = [Sprite spriteWithFile:@"tallGuy-home.png"];
 	npc1 = [Sprite spriteWithFile:@"npc-1.png"];
