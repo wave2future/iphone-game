@@ -87,7 +87,6 @@
 		BE3511330EC63B380054FAA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3511320EC63B380054FAA8 /* QuartzCore.framework */; };
 		BEC5EC4E0EC73409000B181B /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = BEC5EC4D0EC73409000B181B /* fps_images.png */; };
 		EE6C0DBE0F97D94A0062BE72 /* TallGuy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0DAD0F97D94A0062BE72 /* TallGuy.m */; };
-		EE6C0DBF0F97D94A0062BE72 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0DB00F97D94A0062BE72 /* Entity.m */; };
 		EE6C0DC00F97D94A0062BE72 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE6C0DB10F97D94A0062BE72 /* Settings.bundle */; };
 		EE6C0DC10F97D94A0062BE72 /* GameDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0DB30F97D94A0062BE72 /* GameDelegate.m */; };
 		EE6C0DC20F97D94A0062BE72 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0DB60F97D94A0062BE72 /* GameScene.m */; };
@@ -266,8 +265,6 @@
 		BEC5EC4D0EC73409000B181B /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		EE6C0DAC0F97D94A0062BE72 /* TallGuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallGuy.h; sourceTree = "<group>"; };
 		EE6C0DAD0F97D94A0062BE72 /* TallGuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TallGuy.m; sourceTree = "<group>"; };
-		EE6C0DAF0F97D94A0062BE72 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		EE6C0DB00F97D94A0062BE72 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 		EE6C0DB10F97D94A0062BE72 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		EE6C0DB20F97D94A0062BE72 /* GameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDelegate.h; sourceTree = "<group>"; };
 		EE6C0DB30F97D94A0062BE72 /* GameDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDelegate.m; sourceTree = "<group>"; };
@@ -292,6 +289,7 @@
 		EE6C0F340F9800C40062BE72 /* Kitten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitten.m; sourceTree = "<group>"; };
 		EE6C0F370F9801900062BE72 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
 		EE6C0F380F9801900062BE72 /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
+		EE6C10080F981BBC0062BE72 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -650,9 +648,8 @@
 		EE6C0DAE0F97D94A0062BE72 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				EE6C0DAF0F97D94A0062BE72 /* Entity.h */,
-				EE6C0DB00F97D94A0062BE72 /* Entity.m */,
 				EE6C0DB10F97D94A0062BE72 /* Settings.bundle */,
+				EE6C10080F981BBC0062BE72 /* core.h */,
 			);
 			name = Core;
 			path = core;
@@ -843,7 +840,6 @@
 				A36B72A80F754B5D0013B314 /* AtlasSpriteManager.m in Sources */,
 				A36B72AB0F754B690013B314 /* CocosNodeExtras.m in Sources */,
 				EE6C0DBE0F97D94A0062BE72 /* TallGuy.m in Sources */,
-				EE6C0DBF0F97D94A0062BE72 /* Entity.m in Sources */,
 				EE6C0DC10F97D94A0062BE72 /* GameDelegate.m in Sources */,
 				EE6C0DC20F97D94A0062BE72 /* GameScene.m in Sources */,
 				EE6C0DC30F97D94A0062BE72 /* MenuScene.m in Sources */,

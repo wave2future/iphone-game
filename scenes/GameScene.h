@@ -6,11 +6,9 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "cocos2d.h"
-#import "TallGuy.h"
+#import "core.h"
 
-Actor * kitten;
+Actor  * kitten;
 Sprite * tallGuy;
 Sprite * tallGuyHome;
 Sprite * npc1;

@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "cocos2d.h"
-#import "MenuScene.h"
 
 @interface GameDelegate : NSObject <UIApplicationDelegate> {
 }

@@ -6,7 +6,7 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import "cocos2d.h"
+#import "core.h"
 
 @interface Actor : Layer {
 	Sprite * torso;

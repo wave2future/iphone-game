@@ -6,9 +6,7 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import "GameScene.h"
-#import "MenuScene.h"
-#import "Kitten.h"
+#import "core.h"
 
 @implementation GameScene
 - (id) init {

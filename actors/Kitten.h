@@ -6,7 +6,7 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import "Actor.h"
+#import "core.h"
 
 @interface Kitten : Actor {}
 @end

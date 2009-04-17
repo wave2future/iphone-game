@@ -6,7 +6,7 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#include "TallGuy.h"
+#import "core.h"
 
 @implementation TallGuy
 - (id) init {

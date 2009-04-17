@@ -6,7 +6,7 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import "Kitten.h"
+#import "core.h"
 
 @implementation Kitten
 -(id) init {
