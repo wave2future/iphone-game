@@ -14,3 +14,14 @@
 #import "GameScene.h"
 #import "MenuScene.h"
 #import "OptionsScene.h"
+
+// Definitions
+
+GameScene * gs;
+Actor  * kitten;
+Sprite * tallGuy;
+Sprite * tallGuyHome;
+Sprite * npc1;
+Sprite * bg;
+Sprite * mg;
+Sprite * mg2;

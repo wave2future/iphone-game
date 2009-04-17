@@ -8,14 +8,6 @@
 
 #import "core.h"
 
-Actor  * kitten;
-Sprite * tallGuy;
-Sprite * tallGuyHome;
-Sprite * npc1;
-Sprite * bg;
-Sprite * mg;
-Sprite * mg2;
-
 @interface GameScene : Scene {}
 @end
 

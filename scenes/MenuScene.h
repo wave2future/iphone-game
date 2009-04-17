@@ -7,9 +7,6 @@
 //
 
 #import "core.h"
-#import "GameScene.h"
-
-GameScene * gs;
 
 @interface MenuScene : Scene {}
 @end
