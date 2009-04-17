@@ -1,14 +1,15 @@
 //
-//  Action.m
+//  Actor.m
 //  Game
 //
 //  Created by Tj Holowaychuk on 14/04/09.
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import "Action.h"
+#import "cocos2d.h"
 
+@interface Actor : NSObject {
 
-@implementation Action
+}
 
 @end

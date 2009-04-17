@@ -1,5 +1,5 @@
 //
-//  Kitten.h
+//  Actor.m
 //  Game
 //
 //  Created by Tj Holowaychuk on 14/04/09.
@@ -8,8 +8,6 @@
 
 #import "Actor.h"
 
-@interface Kitten : NSObject {
-
-}
+@implementation Actor
 
 @end

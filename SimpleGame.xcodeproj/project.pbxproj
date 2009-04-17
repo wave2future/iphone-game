@@ -104,7 +104,7 @@
 		EE6C0E8E0F97EBAF0062BE72 /* home-grass-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6C0E8D0F97EBAF0062BE72 /* home-grass-2.png */; };
 		EE6C0EE00F97F94E0062BE72 /* kitten-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6C0EDF0F97F94E0062BE72 /* kitten-shadow.png */; };
 		EE6C0F350F9800C40062BE72 /* Kitten.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0F340F9800C40062BE72 /* Kitten.m */; };
-		EE6C0F390F9801900062BE72 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0F380F9801900062BE72 /* Action.m */; };
+		EE6C0F390F9801900062BE72 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6C0F380F9801900062BE72 /* Actor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -290,8 +290,8 @@
 		EE6C0EDF0F97F94E0062BE72 /* kitten-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kitten-shadow.png"; sourceTree = "<group>"; };
 		EE6C0F330F9800C40062BE72 /* Kitten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitten.h; sourceTree = "<group>"; };
 		EE6C0F340F9800C40062BE72 /* Kitten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitten.m; sourceTree = "<group>"; };
-		EE6C0F370F9801900062BE72 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
-		EE6C0F380F9801900062BE72 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		EE6C0F370F9801900062BE72 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		EE6C0F380F9801900062BE72 /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,8 +640,8 @@
 				EE6C0DAD0F97D94A0062BE72 /* TallGuy.m */,
 				EE6C0F330F9800C40062BE72 /* Kitten.h */,
 				EE6C0F340F9800C40062BE72 /* Kitten.m */,
-				EE6C0F370F9801900062BE72 /* Action.h */,
-				EE6C0F380F9801900062BE72 /* Action.m */,
+				EE6C0F370F9801900062BE72 /* Actor.h */,
+				EE6C0F380F9801900062BE72 /* Actor.m */,
 			);
 			name = Actors;
 			path = actors;
@@ -850,7 +850,7 @@
 				EE6C0DC40F97D94A0062BE72 /* OptionsScene.m in Sources */,
 				EE6C0DC50F97D94A0062BE72 /* cpMouse.c in Sources */,
 				EE6C0F350F9800C40062BE72 /* Kitten.m in Sources */,
-				EE6C0F390F9801900062BE72 /* Action.m in Sources */,
+				EE6C0F390F9801900062BE72 /* Actor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
