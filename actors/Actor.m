@@ -9,7 +9,7 @@
 #import "core.h"
 
 @implementation Actor
-+(id) createActor {
++(id) actor {
 	return [[[self alloc] init] autorelease];
 }
 @end

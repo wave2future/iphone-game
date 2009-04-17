@@ -11,7 +11,7 @@
 @implementation GameScene
 - (id) init {
 	if (!(self = [super init])) return nil;
-	kitten = [Kitten createActor];
+	kitten = [Kitten actor];
 	
 	tallGuy = [Sprite spriteWithFile:@"tall-guy.png"];
 	tallGuyHome = [Sprite spriteWithFile:@"tallGuy-home.png"];
