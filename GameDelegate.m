@@ -6,7 +6,6 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import "core.h"
 #import "GameDelegate.h"
 
 @implementation GameDelegate

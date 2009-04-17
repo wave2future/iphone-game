@@ -12,5 +12,7 @@
 	Sprite * torso;
 	Sprite * shadow;
 }
+@property(readwrite, assign) Sprite * torso;
+@property(readwrite, assign) Sprite * shadow;
 +(id) actor;
 @end

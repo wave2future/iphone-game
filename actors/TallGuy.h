@@ -8,7 +8,5 @@
 
 #import "core.h"
 
-@interface TallGuy : Layer {
-	Sprite * body;
-}
+@interface TallGuy : Actor {}
 @end

@@ -6,7 +6,7 @@
 //  Copyright 2009 Vision Media. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "core.h"
 
 @interface GameDelegate : NSObject <UIApplicationDelegate> {
 }

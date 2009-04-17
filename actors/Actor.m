@@ -9,6 +9,7 @@
 #import "core.h"
 
 @implementation Actor
+@synthesize torso, shadow;
 +(id) actor {
 	return [[[self alloc] init] autorelease];
 }

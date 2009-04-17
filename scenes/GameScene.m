@@ -12,8 +12,8 @@
 - (id) init {
 	if (!(self = [super init])) return nil;
 	kitten = [Kitten actor];
+	tallGuy = [TallGuy actor];
 	
-	tallGuy = [Sprite spriteWithFile:@"tall-guy.png"];
 	tallGuyHome = [Sprite spriteWithFile:@"tallGuy-home.png"];
 	npc1 = [Sprite spriteWithFile:@"npc-1.png"];
 	bg = [Sprite spriteWithFile:@"home-sky.png"];
@@ -59,13 +59,13 @@
     return self;
 }
 
-- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	UITouch *myTouch =  [touches anyObject];
-	CGPoint location = [myTouch locationInView: [myTouch view]];
-	location = [[Director sharedDirector] convertCoordinate: location];
-	[gs runAction:[MoveTo actionWithDuration:2 position:cpv(location.x / 8, location.y / 8)]];
-	[tallGuy runAction:[MoveTo actionWithDuration:2 position:cpv(location.x - ([tallGuy contentSize].width / 2), location.y + ([tallGuy contentSize].height / 2) - 30)]];
-	[kitten runAction:[MoveTo actionWithDuration:6 position:cpv(location.x + 20, location.y)]];
-	// tallGuy.scaleX = -tallGuy.scaleX;
-}
+//- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+//	UITouch *myTouch =  [touches anyObject];
+//	CGPoint location = [myTouch locationInView: [myTouch view]];
+//	location = [[Director sharedDirector] convertCoordinate: location];
+//	[gs runAction:[MoveTo actionWithDuration:2 position:cpv(location.x / 8, location.y / 8)]];
+//	[tallGuy runAction:[MoveTo actionWithDuration:2 position:cpv(location.x - ([[tallGuy torso] contentSize].width / 2), location.y + ([[tallGuy torso] contentSize].height / 2) - 30)]];
+//	[kitten runAction:[MoveTo actionWithDuration:6 position:cpv(location.x + 20, location.y)]];
+//	tallGuy.scaleX = -tallGuy.scaleX;
+//}
 @end

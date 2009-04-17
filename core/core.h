@@ -1,6 +1,8 @@
 
 // Support
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "cocos2d.h"
 
 // Actors
@@ -18,8 +20,8 @@
 // Definitions
 
 GameScene * gs;
-Actor  * kitten;
-Sprite * tallGuy;
+Actor * kitten;
+Actor * tallGuy;
 Sprite * tallGuyHome;
 Sprite * npc1;
 Sprite * bg;

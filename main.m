@@ -1,5 +1,4 @@
 
-#import <UIKit/UIKit.h>
 #import "GameDelegate.h"
 
 int main(int argc, char *argv[]) {
