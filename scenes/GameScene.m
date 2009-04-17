@@ -13,7 +13,7 @@
 @implementation GameScene
 - (id) init {
 	if (!(self = [super init])) return nil;
-	kitten = [[[Kitten alloc] init] autorelease];
+	kitten = [Kitten createActor];
 	
 	tallGuy = [Sprite spriteWithFile:@"tall-guy.png"];
 	tallGuyHome = [Sprite spriteWithFile:@"tallGuy-home.png"];

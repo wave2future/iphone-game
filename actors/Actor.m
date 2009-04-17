@@ -9,5 +9,7 @@
 #import "Actor.h"
 
 @implementation Actor
-
++(id) createActor {
+	return [[[self alloc] init] autorelease];
+}
 @end

@@ -8,8 +8,5 @@
 
 #import "Actor.h"
 
-@interface Kitten : Actor {
-
-}
--(id) init;
+@interface Kitten : Actor {}
 @end

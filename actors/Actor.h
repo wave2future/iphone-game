@@ -12,5 +12,5 @@
 	Sprite * torso;
 	Sprite * shadow;
 }
-
++(id) createActor;
 @end

@@ -21,3 +21,7 @@
 	return self;
 }
 @end
+
+/*
+#define kDefaultFPS		60.0	// 60 frames per second
+ }*/
