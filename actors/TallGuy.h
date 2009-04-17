@@ -21,7 +21,6 @@
  TODO: iphone multithreading?
  */
 
-#import <UIKit/UIKit.h>
 #import "cocos2d.h"
 
 @interface TallGuy : Layer {
