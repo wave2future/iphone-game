@@ -9,5 +9,15 @@
 #import "Kitten.h"
 
 @implementation Kitten
-
+-(id) init {
+	if (!(self = [super init])) return nil;
+	torso = [Sprite spriteWithFile:@"kitten.png"];
+	[self addChild:torso z:2];
+	
+	shadow = [Sprite spriteWithFile:@"kitten-shadow.png"];
+	[self addChild:shadow z:0];
+	[shadow setPosition:cpv(1, -18)];
+	
+	return self;
+}
 @end

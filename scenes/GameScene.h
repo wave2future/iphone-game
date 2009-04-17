@@ -10,7 +10,7 @@
 #import "cocos2d.h"
 #import "TallGuy.h"
 
-Sprite * kitten;
+Actor * kitten;
 Sprite * tallGuy;
 Sprite * tallGuyHome;
 Sprite * npc1;

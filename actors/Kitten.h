@@ -8,8 +8,8 @@
 
 #import "Actor.h"
 
-@interface Kitten : NSObject {
+@interface Kitten : Actor {
 
 }
-
+-(id) init;
 @end

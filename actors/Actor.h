@@ -8,8 +8,9 @@
 
 #import "cocos2d.h"
 
-@interface Actor : NSObject {
-
+@interface Actor : Layer {
+	Sprite * torso;
+	Sprite * shadow;
 }
 
 @end
