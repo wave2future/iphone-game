@@ -8,14 +8,6 @@
 
 #import "core.h"
 
-Actor * kitten;
-Actor * tallGuy;
-Sprite * tallGuyHome;
-Sprite * npc1;
-Sprite * bg;
-Sprite * mg;
-Sprite * mg2;
-
 @implementation GameScene
 - (id) init {
 	if (!(self = [super init])) return nil;
