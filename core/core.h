@@ -20,10 +20,3 @@
 // Definitions
 
 GameScene * gs;
-Actor * kitten;
-Actor * tallGuy;
-Sprite * tallGuyHome;
-Sprite * npc1;
-Sprite * bg;
-Sprite * mg;
-Sprite * mg2;

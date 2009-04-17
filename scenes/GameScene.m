@@ -8,6 +8,14 @@
 
 #import "core.h"
 
+Actor * kitten;
+Actor * tallGuy;
+Sprite * tallGuyHome;
+Sprite * npc1;
+Sprite * bg;
+Sprite * mg;
+Sprite * mg2;
+
 @implementation GameScene
 - (id) init {
 	if (!(self = [super init])) return nil;
@@ -59,13 +67,12 @@
     return self;
 }
 
-//- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-//	UITouch *myTouch =  [touches anyObject];
-//	CGPoint location = [myTouch locationInView: [myTouch view]];
-//	location = [[Director sharedDirector] convertCoordinate: location];
-//	[gs runAction:[MoveTo actionWithDuration:2 position:cpv(location.x / 8, location.y / 8)]];
-//	[tallGuy runAction:[MoveTo actionWithDuration:2 position:cpv(location.x - ([[tallGuy torso] contentSize].width / 2), location.y + ([[tallGuy torso] contentSize].height / 2) - 30)]];
-//	[kitten runAction:[MoveTo actionWithDuration:6 position:cpv(location.x + 20, location.y)]];
-//	tallGuy.scaleX = -tallGuy.scaleX;
-//}
+- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	UITouch *myTouch =  [touches anyObject];
+	CGPoint location = [myTouch locationInView: [myTouch view]];
+	location = [[Director sharedDirector] convertCoordinate: location];
+	[gs runAction:[MoveTo actionWithDuration:2 position:cpv(location.x / 8, location.y / 8)]];
+	[tallGuy runAction:[MoveTo actionWithDuration:2 position:cpv(location.x - ([[tallGuy torso] contentSize].width / 2), location.y + ([[tallGuy torso] contentSize].height / 2) - 30)]];
+	[kitten runAction:[MoveTo actionWithDuration:6 position:cpv(location.x + 20, location.y)]];
+}
 @end
